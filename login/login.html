@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="asset/Hackthon.png" alt="Hackathon">
+        
+        <div class="right-items">
+            <a href="home.html">Home</a> 
+            <a href="champ.html">Champion & Prizes</a>
+            <a href="mj.html">Mentor & Jury</a>
+            <a href="about.html">About Us</a>
+            <a href="faq.html">FAQ</a>
+            <a href="timeline.html">Timeline</a>
+            <button><a href="login.html">Log in</a></button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <img id="welcome" src="asset/Welcome.png" alt="Welcome">
+            <br>
+            <img id="log" src="asset/Log back in.png" alt="Log back in">
+            
+            <!-- Untuk Back-End -->
+            <!-- Action diisi dengan url pengolahan data :)  -->
+            <form id="myForm" action="https://example.com/form-handler" method="post">
+                
+                <input type="text" id="teamname" name="teamname" required placeholder="Your Team Name..">
+                
+                <br>
+            
+                <input type="password" id="password" name="password" required placeholder="Password..">
+                
+                <br>
+            
+                
+                <button type="button" onclick="submitForm()">Log in</button>
+              </form>
+            
+            <a href="forgotpass.html">Forgot Password?</a>
+            <br>
+        </div>
+
+        <div class="right">
+            <img src="asset/Robot.png" alt="Robot">
+        </div>
+    </div>
+
+    <div class="bottom">
+        <h2>Belum memiliki akun?</h2> <a href="signup.html">Sign up here..</a>
+    </div>
+    
+    <script src="login.js"></script>
+</body>
+</html>
