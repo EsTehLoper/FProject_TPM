@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #232859;
+}
+
+header {
+    position: sticky;
+}
+
+.navbar {
+    background-color: #7a01a5;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a, .navbar button {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+.navbar a {
+    font-weight: bold;
+}
+
+.navbar button {
+    background-color: #C24FB3;
+    border: none;
+    border-radius: 25px;
+    font-size: large;
+}
+
+.navbar .right-items {
+    display: flex;
+    gap: 10px;
+}
+
+.hero {
+    height: calc(100vh - 75px);
+    width: 100%;
+    position: relative;
+    display: flexbox;
+}
+
+.logo {
+    align-self: flex-start;
+}
+
+.heading1 {
+    align-self: flex-end;
+    margin-top: 0px;
+    margin-left: 75px;
+}
+
+.heading2 {
+    margin-top: 0px;
+    margin-left: 500px;
+}
+
+.rocket {
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
